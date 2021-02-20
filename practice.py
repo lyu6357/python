@@ -1,18 +1,43 @@
-#변수를 이용하여 다음 문장을 출력하시오.
+print(2**3) #2^3=8
 
-#변수명
-# : station
+print(5%3) #나머지 구하기 : 2
 
-#변수값 
-# : "사당", "신도림", "인천공항" 순서대로 입력
+print(5//3) #몫 구하기 : 1
 
-#출력 문장 
-# : $$행 열차가 들어오고 있습니다. 
+print(10>3) #비교 연산 : True
 
-station = "사당"
+print(4 >= 7)  #False
 
-print(station + "행 열차가 들어오고 있습니다.")
+print(3 == 3) # True  "==은 같다"
+print(4 == 2) # False
+print(3+4 == 7 ) # True
 
+print(1 != 3) # True "!=은 같지 않다"
+print(not(1 != 3)) #False
 
-#2강
-#숫자 자료형, 문자열 자료형,  boolean 자료형, 변수, 주석에 대한 학습
+print( (3 > 0) and (3 < 5)) #True " and 앞 뒤 모두 옳은 문장이어야 함."
+print ((3 > 0) & (3 < 5)) #True  
+
+print((3 > 0) or (3 > 5)) #True "or 둘 중 한 문장만 만족하면 됨."
+print((3 > 0) | (3 > 5)) #True
+
+print(5 > 4 > 3) #True 
+print(2 + 3 * 4) #14 
+print((2 + 3) * 4) #20 
+
+number = 2 + 3 * 4 #14
+print(number)
+number = number +2 #16 
+print (number) 
+number += 2 #18 
+print (number) 
+number *= 2 #36 
+print (number)
+number /= 2 #18 
+print (number)
+number -= 2 #16
+print(number)
+
+number %= 5 #1
+print(number)
+ 
